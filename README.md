@@ -2,6 +2,8 @@
 
 The package to perform time series clustering.
 
+![Figure_1](https://user-images.githubusercontent.com/35659728/56433179-fbfd1200-630a-11e9-9237-eb827153c61d.png)
+
 ## Getting Started
 
 ### Prerequisites
