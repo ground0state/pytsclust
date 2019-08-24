@@ -22,9 +22,11 @@ class KMedoids(object):
         self.max_iter = max_iter
 
         self.cluster_medoids_args_ = None
+        self.dtw = DTW()
 
     def _dtw_distance(self, ts_1, ts_2):
-        return DTW(ts_1, ts_2)
+
+        return self.dtw.warp_distance(ts_1, ts_2)
 
     def _print_meaasage(self, _, clusters_index):
         print('iterations:', _)

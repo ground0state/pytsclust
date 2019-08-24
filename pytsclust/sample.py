@@ -44,3 +44,4 @@ for i in range(N_CLUSTERS):
 
 plt.show()
 print(pred)
+print(cls.dtw.warp_path)
