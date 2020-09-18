@@ -1,6 +1,6 @@
 # pytsclust
 
-The package to perform time series clustering.
+The module to perform time series clustering.
 
 ![Figure_1](https://user-images.githubusercontent.com/35659728/56433179-fbfd1200-630a-11e9-9237-eb827153c61d.png)
 
@@ -14,7 +14,7 @@ What things you need to install the software and how to install them,
 
 ### Installing
 
-just modules.
+just a module.
 
 ### how to use
 
@@ -30,4 +30,4 @@ pred = cls.fit_predict(features, randomstate=7)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
